@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description/>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{"graph_api_version":"1.0.41","variables":{},"goals":{"primary":{"id":"primary","trigger":{"type":"primary"},"name":"primary","applicability":"","description":"","nodes":{"7d3f8b5521294172bd8e2bd27ca39689":{"id":"7d3f8b5521294172bd8e2bd27ca39689","stepType":"Start","name":"Start","greetingResponse":{"mode":"simple","value":""}},"bae30c99b1cc4869a8725894da698527":{"id":"bae30c99b1cc4869a8725894da698527","stepType":"TerminateGoal","name":"End","confirmationMessage":{"mode":"simple","value":""}}},"edges":[{"id":"b46542f058b44f55a84d737eacd389f3","edgeType":"Edge","source":"7d3f8b5521294172bd8e2bd27ca39689","target":"bae30c99b1cc4869a8725894da698527","sourcePort":"","targetPort":""}]}}}</graph>
+        <key_phrases>Update Needit Record Short Description</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Update Needit Record Short Description</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <secure_custom_input_control>false</secure_custom_input_control>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-06 18:50:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>16c0b77a47121110fe74bce5536d43db</sys_id>
+        <sys_name>Update Needit Record Short Description</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_cb_topic_16c0b77a47121110fe74bce5536d43db</sys_update_name>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=16c0b77a47121110fe74bce5536d43db"/>
+</record_update>
